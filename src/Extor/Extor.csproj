@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Company>$(Authors) </Company>
+    <AnalysisLevel>6.0</AnalysisLevel>
+    <Version>1.0.0</Version>
+    <Title>Extor Exception Handler</Title>
+    <Authors>Novruz</Authors>
+    <Description>Developer-friendly global exception handling package.</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageTags>extor, exception, handler, handling, global, exc, hand</PackageTags>
+    <RepositoryUrl></RepositoryUrl>
+    <PackAsTool>False</PackAsTool>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+</Project>
